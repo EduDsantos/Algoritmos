@@ -1,10 +1,14 @@
 algoritmo "Contador"
 var
-     contador:inteiro
+     contador, valor, salto:inteiro
 inicio
-      contador <- 10
-      enquanto contador <=100 faca
+      contador <- 0
+      escreval("contar ate ")
+      leia(valor)
+      escreval("em quantas casas ? ")
+      leia(salto)
+      enquanto contador <= valor faca
                escreval(contador)
-               contador <- contador + 10
+               contador <- contador + salto
       fimenquanto
 fimalgoritmo
