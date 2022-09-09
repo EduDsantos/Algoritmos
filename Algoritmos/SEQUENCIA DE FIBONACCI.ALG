@@ -1,15 +1,16 @@
 algoritmo "sequencia de fibonacci"
 var
-   c, soma, fibo:inteiro
+   c, t1, t2, t3:inteiro
 inicio
-      fibo<- 0
-      soma<- 1
-      para c<- 0 ate 15 faca
-           fibo<- fibo + soma
-           soma<- fibo - soma
+      t1<- 0
+      escreva(t1)
+      t2<- 1
+      escreva(t2)
+      para c:=1 ate 13 faca
+      t3:=t1+t2
+      escreva(t3)
+      t1 :=t2
+      t2 :=t3
+      fimpara
 
-           escreva(fibo)
-
-
-   fimpara
 fimalgoritmo
